@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Hari Lahir, Sayang</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Courier New', monospace;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+    }
+    .typewriter p {
+      display: inline-block;
+      border-right: 3px solid rgba(255,255,255,0.75);
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 10s steps(80, end), blink 0.75s step-end infinite;
+      font-size: 1.1em;
+      max-width: 100%;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      background: #fff;
+      color: #ff5e78;
+      padding: 12px 25px;
+      margin: 5px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff5e78;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+      .card {
+        padding: 25px;
+      }
+      .btn {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Selamat Hari Lahir, Cinta Hati Baby 🌹❤️</h1>
+    <div class="typewriter">
+      <p>
+        Hari ini dunia menyambut hari lahirmu, tapi bagiku... setiap hari bersamamu adalah hadiah yang tak ternilai.
+        Aku bersyukur kerana Tuhan mempertemukan aku dengan seseorang seindah kamu – hati yang lembut, senyuman yang menenangkan, dan cinta yang tulus.
+        Di ulang tahun ini, aku tak minta banyak.
+        Aku cuma mohon semoga kamu sentiasa dilindungi, diberi kebahagiaan yang tak putus, dan dipermudahkan segala langkahmu.
+        Kerana bila kamu bahagia, hatiku juga ikut tenang.
+        Terima kasih kerana mencintai aku walaupun aku jauh dari sempurna.
+        Terima kasih kerana hadir sebagai cahaya dalam hidupku, saat aku paling gelap.
+        Aku janji akan terus ada untuk kamu – dalam suka dan duka, hari ini, esok, dan selamanya.
+        Happy Birthday, sayangku.
+        I LOVE YOUUU MOREEE ❤️
+      </p>
+    </div>
+
+    <div class="buttons">
+      <a class="btn" href="https://api.whatsapp.com/send?text=Selamat%20Hari%20Lahir%2C%20sayangku%20❤️%0ALihat%20surat%20ini%20%F0%9F%92%8D%3A%20[LINK_SURAT]" target="_blank">Kongsi ke WhatsApp</a>
+      <a class="btn" href="https://www.instagram.com" target="_blank">Kongsi ke Instagram</a>
+    </div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
