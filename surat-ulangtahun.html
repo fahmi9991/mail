@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Hari Lahir, Sayang</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Courier New', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .typewriter {
+      max-width: 700px;
+      border: 3px solid white;
+      border-radius: 20px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      font-size: 1.2rem;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      background-color: #fff;
+      animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="typewriter" id="text-container">
+    <span id="typed-text"></span><span class="cursor"></span>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    const text = `Selamat Hari Lahir, Cinta Hati Baby 🌹
+
+Hari ini dunia menyambut hari lahirmu, tapi bagiku... setiap hari bersamamu adalah hadiah yang tak ternilai.
+Aku bersyukur kerana Tuhan mempertemukan aku dengan seseorang seindah kamu – hati yang lembut, senyuman yang menenangkan, dan cinta yang tulus.
+
+Di ulang tahun ini, aku tak minta banyak.
+Aku cuma mohon semoga kamu sentiasa dilindungi, diberi kebahagiaan yang tak putus, dan dipermudahkan segala langkahmu.
+Kerana bila kamu bahagia, hatiku juga ikut tenang.
+
+Terima kasih kerana mencintai aku walaupun aku jauh dari sempurna.
+Terima kasih kerana hadir sebagai cahaya dalam hidupku, saat aku paling gelap.
+Aku janji akan terus ada untuk kamu – dalam suka dan duka, hari ini, esok, dan selamanya.
+
+Happy Birthday, sayangku.
+I LOVE YOUUU MOREEE ❤️`;
+
+    const typedText = document.getElementById('typed-text');
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        typedText.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 40);
+      }
+    }
+
+    window.onload = type;
+  </script>
+</body>
+</html>
